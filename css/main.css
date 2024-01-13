@@ -1,0 +1,118 @@
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #15273f;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 20px;
+    width: 300px;
+}
+
+.image{
+    position: relative;
+    cursor: pointer;
+}
+.image img{
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.overlay{
+    position: absolute;
+    display: flex;
+    background-color: #45dfe5;
+    opacity: 0.5;
+    height: 83%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.overlay:hover{
+    opacity: 0.8;
+}
+
+.overlay img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.title{
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 13px;
+}
+.title:hover{
+    color: #45dfe5;
+}
+
+.description{
+    color: #4f7da1;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.crypto{
+    display: flex;
+    align-items: center;
+    color: #45dfe5;
+    font-weight: 800;
+}
+.crypto img{
+    margin-right: 7px;
+}
+
+.time-left{
+    display: flex;
+    align-items: center;
+    color: #4f7da1;
+}
+.time-left img{
+    margin-right: 7px;
+}
+
+hr{
+    height: 0.1px;
+    opacity: 0.5;
+    border-color: #4f7da1;
+}
+
+.creator{
+    display: flex;
+    align-items: center;
+}
+
+.creator img{
+    width: 30px;
+    margin-right: 10px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 100%;
+}
+
+.creator p{
+    margin-right: 10px;
+    color: #4f7da1;
+}
+
+.creator .name{
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+
+.name:hover{
+    color: #45dfe5;
+}
