@@ -3,8 +3,6 @@ main{
     flex-direction: column;
     background-color: #15273f;
     border-radius: 10px;
-    margin-top: 10%;
-    margin-bottom: 10%;
     padding: 20px;
     width: 300px;
 }
@@ -55,7 +53,7 @@ main{
 }
 
 .description{
-    color: #4f7da1;
+    color: hsl(215, 51%, 70%);
 }
 
 .info{
@@ -76,7 +74,7 @@ main{
 .time-left{
     display: flex;
     align-items: center;
-    color: #4f7da1;
+    color: hsl(215, 51%, 70%);
 }
 .time-left img{
     margin-right: 7px;
@@ -85,7 +83,7 @@ main{
 hr{
     height: 0.1px;
     opacity: 0.5;
-    border-color: #4f7da1;
+    border-color: hsl(215, 51%, 70%);
 }
 
 .creator{
@@ -104,7 +102,7 @@ hr{
 
 .creator p{
     margin-right: 10px;
-    color: #4f7da1;
+    color: hsl(215, 51%, 70%);
 }
 
 .creator .name{
